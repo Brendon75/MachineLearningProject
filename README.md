@@ -7,7 +7,8 @@ Selvin White - Module designer, developer, and researcher
 Our team will collaborate on building and evaluating a machine learning system that recognizes surgical gestures from recorded Da Vinci motion data and identify diseases and ailments. Responsibilities will include data preprocessing, model development, performance testing, results analysis, and presentation/report preparation.
 
 ## Feedback Received and Responses
-Awaiting feedback
+- Identify specific gestures during procedures.
+- Provide an experimental setup + how it will be demonstrated.
 
 ## Problem and Motivation
 Surgeons learning robot-assisted procedures need detailed feedback on their tool movements and surgical technique. Much of this feedback is given after a training session, which can delay their improvement. Our project investigates whether machine learning can recognize gestures quickly enough to provide useful real-time feedback during simulated Da Vinci training.
