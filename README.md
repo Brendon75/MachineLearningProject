@@ -73,4 +73,6 @@ We will create a prototype that receives recorded Da Vinci robot motion data, pr
 
 ## References​
 
+Johns Hopkins Medicine (2024) https://www.hopkinsmedicine.org/news/articles/2024/02/using-ai-to-enhance-lateral-skull-base-surgery
 
+Intuitive Surgical (2025) https://www.intuitive.com/en-gb/products-and-services/da-vinci
