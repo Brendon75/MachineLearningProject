@@ -22,13 +22,18 @@ This is a machine learning problem because the model must balance gesture recogn
 | Are some surgical gestures harder for machine learning to recognize than others? | Similar gestures with overlapping tool movements will be confused more often than clearly different gestures.|
 
 ## Related Work
+Machine learning is surgery is being explored by medical professionals. Dr. Francis Creighton, a surgeon scientist at Johns Hopkins Medicine and is leading in research to develop cooperative robots that can help surgeons avoid critical structures. These robots could provide real-time feedback, reduce tremor, and help surgeons avoid dangerous structures. His work supports the idea that AI should assist surgeons with information and feedback rather than replace their medical judgement.
+(Link:) https://www.hopkinsmedicine.org/news/articles/2024/02/using-ai-to-enhance-lateral-skull-base-surgery
 
+The Da Vinci platform is an appropriate example for this project because it is used by trained physicians to control endoscopes and surgical instruments during minimally invasive procedures. Intuitive Surgical also describes Da Vinci 5 as a platform designed for surgical data analytics, objective skill assessment, and future AI and machine learning capabilities. Our project builds on this direction by evaluating whether gesture recognition models can produce useful low latency feedback from recorded motion data.
+(Link:) https://www.intuitive.com/en-gb/products-and-services/da-vinci/5-teaser
 
 ## Proposed System or Approach
-
+We will create a prototype that receives recorded Da Vinci robot motion data, preprocesses the data into sequences of tool movements, and uses machine learning models to classify the current surgical gesture. The prototype will output the predicted gesture and confidence score as simulated real-time feedback for a trainee. We will compare a simple baseline model with temporal machine learning models, such as an LSTM/GRU and a temporal convolutional network as well as use recorded training data.
 
 ## Evaluation Plan
-
+- Data: Recorded Da Vinci surgical training motion data for suturing, knot tying, and needle passing.
+- Baselines: Logistic regression or random forest.
 
 ## Expected Deliverables
 - Cleaned and preprocessed Da Vinci motion data pipeline.
