@@ -66,6 +66,11 @@ We will create a prototype that receives recorded Da Vinci robot motion data, pr
 
 
 ## Reproducibility Plan
-
+- Dataset download and preprocessing instruments
+- Saved model configurations and package versions
+- Automated training and evaluation scripts
+- Fixed train/test splits 
 
 ## References​
+
+
